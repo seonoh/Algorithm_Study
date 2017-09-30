@@ -1,0 +1,18 @@
+String (Class), StringBuffer, StringBuilder
+
+String s = "abcd";
+# 메모리  [abcd]
+s += "efg";
+# 메모리  [abcd, abcdefg]
+String 데이터가 변경 될 경우 메모리에 새로운 데이터를 추가하고 메모리 참조를 바꿉니다
+=> 메모리 소모가 크다
+
+StringBuilder (StringBuilder)
+String 관련 여러 API 가 제공 됩니다
+StringBuilder sb = new StringBuilder("abcd");
+# 메모리  [abcd]
+sb.append("efg");
+# 메모리  [abcdefg]
+유연적으로 메모리를 사용합니다
+Buffer = 동시에 같은 값을 삽입 할 경우 (비동기) 동기화를하여 데이터 보장
+Builder = 동기화를 하지 않아 단일 스레드에서 사용하면 좋습니다
