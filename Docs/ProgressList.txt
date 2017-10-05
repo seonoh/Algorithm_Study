@@ -12,3 +12,4 @@
 2, 17-09-30 (백준)
     1) 8320번: 직사각형을 만드는 방법 https://www.acmicpc.net/problem/8320
     2) 9417번: 최대 GCD https://www.acmicpc.net/problem/9417
+    3) 14726번: 신용카드 판별 https://www.acmicpc.net/problem/14726
