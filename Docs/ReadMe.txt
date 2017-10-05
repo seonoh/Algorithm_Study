@@ -23,8 +23,8 @@ https://join.skype.com/GarQhN8Dbfno
 https://github.com/WilsonParkers/Algorithm_Study
 
 제출 양식 (해당 날짜 폴더에 날짜 + 이름)
-ex) create new file => 메모장에 코드 복붙한 파일 선택 => 파일명 : 1번 - 정태현.java
-    파일명 준수 바람. ex) 1번-정태현java
+ex) create new file => 메모장에 코드 복붙한 파일 선택 => 파일명 : 정태현_백준_9417번_최대GCD.java
+    파일명 준수 바람. ex) 정태현_백준_9417번_최대GCD.java
 
 코드 결과는 캡쳐 후 slack 알고리즘 submit 채널에 제출
 
@@ -44,3 +44,9 @@ algorithm_chat   - 알고리즘 문제에 관한 질문방
 algorithm_exam   - 알고리즘 문제 출제방
 algorithm_submit - 과제 제출방(결과만 사진찍어제출) 코드는 깃으로
 general 	 - 스터디 잡이야기 방
+
+
+# 알고리즘 풀이 간 공지 사항
+1. import 를 하여 외부 라이브러리를 사용해도 됩니다
+2. 랭커가 되기 위해 코드를 가능한 짧게 (ShortCut) 작성할 수 있도록 합니다
+3. 주석을 생활화 합니다 (설명하기에도 좋고 나중에 보기에도 도움이 됩니다)
