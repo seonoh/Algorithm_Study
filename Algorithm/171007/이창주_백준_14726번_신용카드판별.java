@@ -38,24 +38,4 @@ public static void main(String args[]) throws Exception	{
 			System.out.println((sum%10 == 0)? "T":"F");
 		}
 	}
-	
-	public static int gcd(int v1, int v2) {
-		int x, y;
-		if(v1>v2) {
-			x=v1;
-			y=v2;
-			
-		}else {
-			x=v2;
-			y=v1;
-		}
-		
-		while(y>0) {
-			int tmp=y;
-			y=x%y;
-			x=tmp;
-		}
-		return x;
-	}
-
 }
