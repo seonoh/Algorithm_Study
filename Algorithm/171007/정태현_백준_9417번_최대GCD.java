@@ -35,6 +35,11 @@ import java.util.stream.IntStream;
 
 public class Backjoon_9417 {
 
+            3
+            10 20 30 40
+            7 5 12
+            125 15 25
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int count = Integer.parseInt(sc.nextLine()); // 열의 갯수
