@@ -1,0 +1,43 @@
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();  //정점의개수
+        
+        int[][] mat; // 행렬 표현
+        
+        // 행렬 입력 
+        mat = new int[N][N];
+        for(int i = 0; i < N; i++){
+            for(int j = 0; j < N; j++){
+                mat[i][j] = sc.nextInt();
+            }
+        }
+        
+        // 경로가 있는지 판단 있으면 1로 설정 j -> i -> k 
+        // j가 출발지, i가 경유지, k가 도착지
+        for(int i = 0; i < N; i++){
+            for(int j = 0; j < N; j++){
+                for(int k = 0; k < N; k++){
+                    if(mat[j][i] == 1 && mat[i][k] == 1)
+                        mat[j][k] = 1;
+                }
+            }
+        }
+        
+        // 결과값 출력
+        for(int i = 0; i < N; i++){
+        	if(i>0) {
+        		System.out.print("\n");	
+        	}
+            
+            for(int j = 0; j < N; j++){
+            	if(j==N-1) {
+            		System.out.print(mat[i][j]);
+            	}else {
+            		System.out.print(mat[i][j]+" ");
+            	}
+                
+            }
+        }
+        
+    }
